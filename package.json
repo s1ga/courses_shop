@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "server": "node app.js"
+    "start": "node app.js"
   },
   "author": "Sergey Harlanov <s.v.harlanov@gmail.com>",
   "license": "ISC",
