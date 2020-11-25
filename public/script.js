@@ -58,6 +58,7 @@ document.querySelectorAll('.price').forEach(node => {
             }
           })
       } else if (event.target.classList.contains('add')) {
+          console.log(event)
             const id = event.target.dataset.id
             const csrf = event.target.dataset.csrf
             

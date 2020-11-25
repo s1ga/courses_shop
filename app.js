@@ -58,8 +58,8 @@ app.use(session({
 app.use(fileMidware.single('avatar'))
 app.use(csurf())
 app.use(flash())
-app.use(helmet())
-app.use(compression())
+// app.use(helmet())
+// app.use(compression())
 app.use(varMidware)
 app.use(userMidware)
 
